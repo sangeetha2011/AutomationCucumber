@@ -1,0 +1,95 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 749866300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Techfiostest page",
+            "match": {
+              "location": "WhiteBackgroundDef.user_is_on_the_techfiostest_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1963879600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WhiteBackgroundDef.startBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to click WhiteButton",
+        "description": "",
+        "id": "validate-skybluebackground-button;user-should-be-able-to-click-whitebutton",
+        "after": [
+          {
+            "result": {
+              "duration": 1125068500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WhiteBackgroundDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49521300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the WhiteButton",
+            "match": {
+              "location": "WhiteBackgroundDef.when_I_click_on_the_skyBlueButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25312900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The background color should change to White",
+            "match": {
+              "location": "WhiteBackgroundDef.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate skyBlueBackground Button",
+    "description": "",
+    "id": "validate-skybluebackground-button",
+    "keyword": "Feature",
+    "uri": "feature/WhiteBackground.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@logintesting1"
+      }
+    ]
+  }
+]
